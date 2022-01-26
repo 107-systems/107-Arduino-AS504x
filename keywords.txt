@@ -6,16 +6,26 @@
 # Class (KEYWORD1)
 #######################################
 
-LOREM	KEYWORD1
+ArduinoAS504x	KEYWORD1
+AS504x	KEYWORD1
+AS504x_Io	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
-IPSUM	KEYWORD2
+angle_raw	KEYWORD2
+read	KEYWORD2
+write	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
 #######################################
 
-LALALA	LITERAL1
+AS5048A_ClearErrorFlag	LITERAL1
+AS5048A_ProgrammingControl	LITERAL1
+AS5048A_OTP_RegisterZeroPosition_HIGH	LITERAL1
+AS5048A_OTP_RegisterZeroPosition_LOW	LITERAL1
+AS5048A_Diagnostics_AutomaticGainControl	LITERAL1
+AS5048A_Magnitude	LITERAL1
+AS5048A_Angle	LITERAL1
