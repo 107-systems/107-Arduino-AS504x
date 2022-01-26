@@ -44,12 +44,12 @@ class AS504x_Io
 {
 public:
 
-  AS504x_Io(SpiBeginFunc begin, 
-            SpiEndFunc end,
-            SpiSelectFunc select,
+  AS504x_Io(SpiBeginFunc    begin,
+            SpiEndFunc      end,
+            SpiSelectFunc   select,
             SpiDeselectFunc deselect,
             SpiTransferFunc transfer,
-            DelayFunc delay_us);
+            DelayFunc       delay_us);
 
 
   uint16_t read  (Register const reg);

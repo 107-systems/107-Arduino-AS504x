@@ -22,12 +22,12 @@ namespace AS504x
  * CTOR/DTOR
  **************************************************************************************/
 
-AS504x_Io::AS504x_Io(SpiBeginFunc begin,
-                     SpiEndFunc end,
-                     SpiSelectFunc select,
+AS504x_Io::AS504x_Io(SpiBeginFunc    begin,
+                     SpiEndFunc      end,
+                     SpiSelectFunc   select,
                      SpiDeselectFunc deselect,
                      SpiTransferFunc transfer,
-                     DelayFunc delay_us)
+                     DelayFunc       delay_us)
 : _begin{begin}
 , _end{end}
 , _select{select}

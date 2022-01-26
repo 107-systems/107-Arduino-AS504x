@@ -23,7 +23,19 @@ class ArduinoAS504x
 
 public:
 
-  ArduinoAS504x();
+  ArduinoAS504x(AS504x::SpiBeginFunc    begin,
+                AS504x::SpiEndFunc      end,
+                AS504x::SpiSelectFunc   select,
+                AS504x::SpiDeselectFunc deselect,
+                AS504x::SpiTransferFunc transfer,
+                AS504x::DelayFunc       delay_us);
+
+
+  uint16_t angle_raw();
+
+private:
+
+  AS504x::AS504x_Io _io;
 
 };
 

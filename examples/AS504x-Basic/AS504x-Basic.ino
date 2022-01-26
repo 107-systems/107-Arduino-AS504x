@@ -23,12 +23,12 @@ static SPISettings const AS504x_SPI_SETTING{1000000, MSBFIRST, SPI_MODE1};
  * GLOBAL VARIABLES
  **************************************************************************************/
 
-AS504x::AS504x_Io angle_pos_sensor([](){ SPI.beginTransaction(AS504x_SPI_SETTING); },
-                                   [](){ SPI.endTransaction(); },
-                                   [](){ digitalWrite(AS504x_CS_PIN, LOW); },
-                                   [](){ digitalWrite(AS504x_CS_PIN, HIGH); },
-                                   [](uint8_t const d) -> uint8_t { return SPI.transfer(d); },
-                                   delayMicroseconds);
+ArduinoAS504x angle_pos_sensor([](){ SPI.beginTransaction(AS504x_SPI_SETTING); },
+                               [](){ SPI.endTransaction(); },
+                               [](){ digitalWrite(AS504x_CS_PIN, LOW); },
+                               [](){ digitalWrite(AS504x_CS_PIN, HIGH); },
+                               [](uint8_t const d) -> uint8_t { return SPI.transfer(d); },
+                               delayMicroseconds);
 
 /**************************************************************************************
  * SETUP/LOOP
@@ -46,10 +46,8 @@ void setup()
 
 void loop()
 {
-  uint16_t const raw_angle = angle_pos_sensor.read(AS504x::Register::AS5048A_Angle);
-
   char msg[64] = {0};
-  snprintf(msg, sizeof(msg), "Angle (Raw) = %d", raw_angle);
+  snprintf(msg, sizeof(msg), "Angle (Raw) = %d", angle_pos_sensor.angle_raw());
   Serial.println(msg);
 
   delay(100);
