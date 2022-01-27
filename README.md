@@ -38,3 +38,22 @@ void loop()
   delay(100);
 }
 ```
+
+## Hardware
+**Breakout/Development-Board**
+* [Nano RP2040 Connect](https://store.arduino.cc/nano-rp2040-connect)
+* [AS5048A-TS_EK_AB](https://ams.com/as5048aadapterboard/)
+* [RMH05-DK-XX](https://ams.com/rmh05-dk-xx)
+
+<p align="center">
+  <img src="extras/img/Arduino-Nano-RP2040-Connect-AS5048A.jpg" width="60%">
+</p>
+
+| **Colour** | **Nano RP2040 Pin** | **AS5048A-TS_EK_AB Pin** |
+|:----------:|:-------------------:|:------------------------:|
+| Red        | 3.3V                | 3.3V                     |
+| Black      | GND                 | GND                      |
+| Green (1)  | CIPO                | MISO                     |
+| Yellow     | COPI                | MOSI                     |
+| Blue       | SCK                 | SCK                      |
+| Green (2)  | D2                  | CSn                      |
