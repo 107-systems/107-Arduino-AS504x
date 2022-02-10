@@ -1,6 +1,12 @@
 <a href="https://107-systems.org/"><img align="right" src="https://raw.githubusercontent.com/107-systems/.github/main/logo/107-systems.png" width="15%"></a>
 `107-Arduino-AS504x`
 ====================
+[![Arduino Library Badge](https://www.ardu-badge.com/badge/107-Arduino-AS504x.svg?)](https://www.ardu-badge.com/107-Arduino-AS504x)
+[![Compile Examples](https://github.com/107-systems/107-Arduino-AS504x/workflows/Compile%20Examples/badge.svg)](https://github.com/107-systems/107-Arduino-AS504x/actions?workflow=Compile+Examples)
+[![Check Arduino](https://github.com/107-systems/107-Arduino-AS504x/actions/workflows/check-arduino.yml/badge.svg)](https://github.com/107-systems/107-Arduino-AS504x/actions/workflows/check-arduino.yml)
+[![Check keywords.txt](https://github.com/107-systems/107-Arduino-AS504x/actions/workflows/check-keywords-txt.yml/badge.svg)](https://github.com/107-systems/107-Arduino-AS504x/actions/workflows/check-keywords-txt.yml)
+[![General Formatting Checks](https://github.com/107-systems/107-Arduino-AS504x/workflows/General%20Formatting%20Checks/badge.svg)](https://github.com/107-systems/107-Arduino-AS504x/actions?workflow=General+Formatting+Checks)
+[![Spell Check](https://github.com/107-systems/107-Arduino-AS504x/workflows/Spell%20Check/badge.svg)](https://github.com/107-systems/107-Arduino-AS504x/actions?workflow=Spell+Check)
 
 <p align="center">
   <a href="https://github.com/107-systems/107-Arduino-DroneCore"><img src="https://github.com/107-systems/.github/raw/main/logo/viper.jpg" width="40%"></a>
