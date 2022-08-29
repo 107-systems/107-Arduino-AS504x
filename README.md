@@ -8,11 +8,11 @@
 [![General Formatting Checks](https://github.com/107-systems/107-Arduino-AS504x/workflows/General%20Formatting%20Checks/badge.svg)](https://github.com/107-systems/107-Arduino-AS504x/actions?workflow=General+Formatting+Checks)
 [![Spell Check](https://github.com/107-systems/107-Arduino-AS504x/workflows/Spell%20Check/badge.svg)](https://github.com/107-systems/107-Arduino-AS504x/actions?workflow=Spell+Check)
 
-<p align="center">
-  <a href="https://github.com/107-systems/107-Arduino-DroneCore"><img src="https://github.com/107-systems/.github/raw/main/logo/viper.jpg" width="40%"></a>
-</p>
-
 Arduino library for interfacing with various Austria Micro Systems angle position sensors.
+
+<p align="center">
+  <a href="https://github.com/107-systems/l3xz"><img src="https://raw.githubusercontent.com/107-systems/.github/main/logo/l3xz-logo-memento-mori-github.png" width="40%"></a>
+</p>
 
 This library works for
 * [ArduinoCore-samd](https://github.com/arduino/ArduinoCore-samd): [`Arduino Zero`](https://store.arduino.cc/arduino-zero), [`MKR 1000`](https://store.arduino.cc/arduino-mkr1000-wifi), [`MKR WiFi 1010`](https://store.arduino.cc/arduino-mkr-wifi-1010), [`Nano 33 IoT`](https://store.arduino.cc/arduino-nano-33-iot), [`MKR GSM 1400`](https://store.arduino.cc/arduino-mkr-gsm-1400-1415), [`MKR NB 1500`](https://store.arduino.cc/arduino-mkr-nb-1500-1413), [`MKR WAN 1300/1310`](https://store.arduino.cc/mkr-wan-1310) :heavy_check_mark:
