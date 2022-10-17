@@ -18,5 +18,5 @@ jobs:
         with:
           check_filenames: true
           check_hidden: true
-          skip: ./.git,./extras/test/external,./src/lib, ./extras/doc/2018-01-29-AS5048-Datasheet-v1-11.pdf
+          skip: ./.git,./extras/test/external,./src/lib, ./extras/doc
           ignore_words_file: extras/codespell-ignore-words-list.txt
