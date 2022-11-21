@@ -136,7 +136,7 @@ uint16_t AS504x_Io::command_set_even_parity(uint16_t const cmd)
       bit_set_cnt++;
   }
 
-  bool is_bit_set_cnt_even = (is_bit_set_cnt_even % 2) == 0;
+  bool is_bit_set_cnt_even = (bit_set_cnt % 2) == 0;
 
   if (is_bit_set_cnt_even)
     return (cmd | 0x8000); /* Set the parity bit. */
