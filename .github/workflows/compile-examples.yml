@@ -69,6 +69,14 @@ jobs:
           - fqbn: arduino:mbed_edge:edge_control
             platforms: |
               - name: arduino:mbed_edge
+          - fqbn: rp2040:rp2040:rpipico
+            platforms: |
+              - name: rp2040:rp2040
+                source-url: https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
+          - fqbn: rp2040:rp2040:arduino_nano_connect
+            platforms: |
+              - name: rp2040:rp2040
+                source-url: https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
           - fqbn: esp32:esp32:esp32
             platforms: |
               - name: esp32:esp32
