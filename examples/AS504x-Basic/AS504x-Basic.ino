@@ -41,7 +41,7 @@ void setup()
 
   SPI.begin();
   pinMode(AS504x_CS_PIN, OUTPUT);
-  digitalWrite(AS504x_CS_PIN, LOW);
+  digitalWrite(AS504x_CS_PIN, HIGH);
 }
 
 void loop()
