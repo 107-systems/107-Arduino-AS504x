@@ -16,7 +16,11 @@
  * CONSTANTS
  **************************************************************************************/
 
-static int         const AS504x_CS_PIN = 2;
+#ifdef TARGET_RP2040 /* arduino-pico core */
+static int const AS504x_CS_PIN = D2;
+#else
+static int const AS504x_CS_PIN = 2;
+#endif
 static SPISettings const AS504x_SPI_SETTING{1000000, MSBFIRST, SPI_MODE1};
 
 /**************************************************************************************
