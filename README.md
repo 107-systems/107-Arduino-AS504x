@@ -22,6 +22,8 @@ This library works for
 ```C++
 #include <107-Arduino-AS504x.h>
 /* ... */
+static SPISettings const AS504x_SPI_SETTING{1000000, MSBFIRST, SPI_MODE1};
+/* ... */
 ArduinoAS504x angle_pos_sensor([](){ SPI.beginTransaction(AS504x_SPI_SETTING); },
                                [](){ SPI.endTransaction(); },
                                [](){ digitalWrite(AS504x_CS_PIN, LOW); },
@@ -33,7 +35,7 @@ void setup()
 {
   SPI.begin();
   pinMode(AS504x_CS_PIN, OUTPUT);
-  digitalWrite(AS504x_CS_PIN, LOW);
+  digitalWrite(AS504x_CS_PIN, HIGH);
 }
 
 void loop()
