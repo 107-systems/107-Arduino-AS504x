@@ -16,7 +16,7 @@
  * CONSTANTS
  **************************************************************************************/
 
-#ifdef TARGET_RP2040 /* arduino-pico core */
+#if !defined(ARDUINO_ARCH_MBED) && !defined(ARDUINO_ARCH_SAMD) && !defined(ARDUINO_ARCH_ESP32) /* arduino-pico core */
 static int const AS504x_CS_PIN = D2;
 #else
 static int const AS504x_CS_PIN = 2;
